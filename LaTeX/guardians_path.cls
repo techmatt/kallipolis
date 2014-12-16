@@ -1,0 +1,1 @@
+\edef\gamepath{"C:/Code/GoogleCode/guardians-larp"}
