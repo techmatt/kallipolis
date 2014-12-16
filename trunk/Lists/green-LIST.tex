@@ -1,0 +1,24 @@
+%%%%%
+%%
+%% This file sets up the Green datatype and creates Green macros.
+%% These are for greensheets.
+%%
+%%%%%
+
+\DECLARESUBTYPE{Green}{Element}
+\PRESETS{Green}{
+  \FD\MYfile	{} %% filename (in \greens dir)
+  \FS\MYtext	{\ifx\MYfile\empty\else%
+		  \getextractenvs{document}{\greens/\MYfile}%
+		\fi}
+  }
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\NEW{Green}{\gExample}{
+  \s\MYname	{Example Green Sheet}
+  \s\MYfile	{exampleGreen.tex}
+  }
+  
+  
