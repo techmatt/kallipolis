@@ -1,1 +1,1 @@
-\edef\gamepath{"C:/Code/GoogleCode/guardians-larp"}
+\edef\gamepath{"C:/Code/LARP/kallipolis"}

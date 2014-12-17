@@ -118,14 +118,6 @@
   \s\MYtext	{A Test Item Card}
   }
 
-\NEW{ItemPacket}{\iTestPacket}{
-  \s\MYname	{Test Item}
-  \s\MYnumber	{0000}
-  \s\MYtext	{A Test Item with a big red button.  Open packet if
-		you press the big red button.}
-  \s\MYcontents	{The item beeps at you.}
-  }
-
 \NEW{ItemFold}{\iTestFold}{
   \s\MYname	{Test Food}
   \s\MYnumber	{0000}
@@ -146,19 +138,70 @@
   \s\MYtext	{Disc gun, loadable to 20 shots.}
   }
 
-\NEW{Item}{\iWhatzit}{
-  \s\MYname	{Whatzit}
-  \s\MYnumber	{12345}
-  \s\MYtext	{If you press it, open packet a.  If you twirl it, open
-		packet b.  If you pull it, open packet c.}
-  \bulky	{1}
-  \s\MYsigns	{\signstrip{a}{it goes ``beep.''}
-		\signstrip{b}{it goes ``whoop.''}
-		\signstrip{c}{it goes ``bang.''}
-		}
-  \s\MYabils	{\ability{Stop Crying}{By futzing with the Whatzit, you
-		can make babies stop crying.}{I make the baby stop
-		crying.}
-		}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\NEW{Item}{\iRestorativeTonic}{
+  \s\MYname	{Restorative Tonic}
+  \s\MYnumber	{}
+  \s\MYtext	{Ten minutes after drinking this, recover one physical health.}
   }
-  
+
+\NEW{Item}{\iPowerfulOuzo}{
+  \s\MYname	{Powerful Ouzo}
+  \s\MYnumber	{}
+  \s\MYtext	{A crude alcoholic beverage. Take one Mental Damage -- Drugs. This drink satisfies any alcohol addiction.}
+  }
+
+\NEW{Item}{\iIntenseOuzo}{
+  \s\MYname	{Intense Ouzo}
+  \s\MYnumber	{}
+  \s\MYtext	{A crude alcoholic beverage. Take one Physical Damage -- Alcohol. This drink satisfies any alcohol addiction.}
+  }
+
+\NEW{Item}{\iMetaxa}{
+  \s\MYname	{Metaxa}
+  \s\MYnumber	{}
+  \s\MYtext	{A delicious, smooth alcoholic beverage typically only accessible to the upper class of Kallipolis. This drink satisfies any alcohol addiction.}
+  }
+		
+\NEW{Item}{\iLiquidOpium}{
+  \s\MYname	{Liquid Opium}
+  \s\MYnumber	{}
+  \s\MYtext	{A crude source of opium. Take one Mental Damage -- Drugs. This drink satisfies any opium addiction.}
+  }
+
+\NEW{Item}{\iVileMixture}{
+  \s\MYname	{Vile Mixture}
+  \s\MYnumber	{}
+  \s\MYtext	{A strong toxin masked by sugar and spices.  Drinking this causes immediate vomiting and obvious physical weakness. Your physical health immediately drops to 1.}
+  }
+	
+\NEW{Item}{\iRefinedOpium}{
+  \s\MYname	{Refined Opium}
+  \s\MYnumber	{}
+  \s\MYtext	{An expensive, refined source of opium. This satisfies any opium addiction.}
+  }
+
+\NEW{Item}{\iRuinedIntoxicant}{
+  \s\MYname	{Gross Tonic}
+  \s\MYnumber	{}
+  \s\MYtext	{A hint of alcohol and opium masked by a vomit-inducing syrup. Take one Mental Damage -- Toxic and one Physical Damage -- Toxic. This drunk does not satisfy any addictions.}
+  }
+
+\NEW{Item}{\iFalseOpium}{
+  \s\MYname	{Weak Opium}
+  \s\MYnumber	{}
+  \s\MYtext	{A fine source of opium that doesn't leave a bad taste. Speak to a GM in approximately 30 minutes.}
+  }
+
+\NEW{Item}{\iFalseAlcohol}{
+  \s\MYname	{Weak Beer}
+  \s\MYnumber	{}
+  \s\MYtext	{A fine if light beer that doesn't leave a bad taste in your mouth. Speak to a GM in approximately 30 minutes.}
+  }
+
+\NEW{Item}{\iAddictionSuppressor}{
+  \s\MYname	{Thick Syrup}
+  \s\MYnumber	{}
+  \s\MYtext	{A foul tasting drink. You now suffer only one mental damage from withdrawal symptoms instead of two.}
+  }
