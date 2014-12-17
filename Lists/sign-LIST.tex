@@ -128,10 +128,31 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\NEW{Sign}{\sTest}{
-  \s\MYname	{A Room}
-  \s\MYloc	{10-250}
-  \s\MYtext	{A lecture hall with large, sliding blackboards.}
+\NEW{Sign}{\sLab}{
+  \s\MYname	{An Apothecary Lab}
+  \s\MYtext	{A well-stocked laboratory filled with apothecary equipment.}
+  }
+
+\NEW{Sign}{\sLabBurner}{
+  \s\MYname	{A flame burner}
+ \s\MYtext	{Drinks can be brewed on this burner. Only one drink can be brewed at a time. Anyone may remove the drink from the burner but you must write the current time on the flask and you may not look at the contents of the flask.}
+  }
+
+\NEW{Sign}{\sLabSupplies}{
+  \s\MYname	{General Apothecary Lab Supplies}
+ \s\MYtext	{Only an apothecary may look under this sign.}
+ \s\MYitems	{ \multi{6}{\iRestorativeTonic{}}
+						  \multi{5}{\iPowerfulOuzo{}}
+							\multi{5}{\iIntenseOuzo{}}
+							\multi{6}{\iLiquidOpium{}}
+							\multi{6}{\iVileMixture{}}
+							}
+  }
+	
+\NEW{Sign}{\sMedeaSupplies}{
+ \s\MYname	{Medea's Specialized Lab Supplies}
+ \s\MYtext	{Only Medea the Doctor may look under this sign.}
+ \s\MYitems	{ \multi{3}{\iFalseAlcohol{}} \multi{3}{\iFalseOpium{}} \multi{6}{\iRuinedIntoxicant{}} \multi{4}{\iAddictionSuppressor{}} }
   }
   
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
